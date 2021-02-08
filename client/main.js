@@ -1,4 +1,3 @@
-import 'react-hot-loader/patch'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
@@ -21,6 +20,7 @@ render(Root)
 
 if (module.hot) {
   module.hot.accept('./config/root', () => {
-    render(Root)
+    const newApp = require('./config/root').default
+    render(newApp)
   })
 }
