@@ -1,6 +1,6 @@
 # Test Task Timetracker
 
-Demo: https://timetrack-test.herokuapp.com/
+Demo: http://timetracker.acsam.cz/
 
 ## Quick start
 
