@@ -1,8 +1,10 @@
 # Test Task Timetracker
 
-Demo: http://timetracker.acsam.cz/
+Demo: https://timetracker.acsam.cz/
 
 ## Quick start
+
+To run this project please use Node.js v.12.22.12
 
 1. Clone this repo using:
   ```shell
